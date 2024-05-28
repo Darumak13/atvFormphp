@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Formulário de Pesquisa (GET)</h1>
-    <form action="process_pesquisa.php" method="post">
+    <form action="process_pesquisa.php" method="get">
         <label for="termo">Termo de Pesquisa:</label>
         <input type="text" id="termo" name="termo" required><br><br>
         
